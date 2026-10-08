@@ -1,0 +1,13 @@
+This distribution contains code derived from DeepLens.
+Upstream: https://github.com/singer-yang/DeepLens
+Copyright 2025 Xinge Yang and DeepLens contributors.
+Original source notices and the Apache-2.0 license are retained.
+Changes: manufacturing objectives, assembly perturbations, process/material cost
+rules, catalog-material search, differentiable MTF estimates and reporting.
+Release adaptations: configurable external material directory, synthetic teaching
+data, portable runner, documentation and paper configuration paths.
+The bundled Cooke demonstration geometry derives from datasets/lenses/cooke.json
+in the local DeepLens source distribution. Its materials have been replaced by
+explicitly synthetic mathematical materials. No supplier catalogs or price
+tables are included. Upstream revision identification is pending (local source
+has no recorded upstream commit in this release).

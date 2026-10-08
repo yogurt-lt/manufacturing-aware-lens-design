@@ -1,0 +1,29 @@
+output_dir: results/maxfield93_mtf_fast
+seed: 43702
+lenses: {}
+frequency_lp_per_mm: 93.0
+nominal_min_mtf: null
+tolerance_min_mtf: null
+screen_diagonals_inch:
+- 100
+throw_ratio: 1.2
+screen_aspect_ratio:
+- 16
+- 9
+field_fractions:
+- 1.0
+wavelengths_nm:
+- 635
+- 525
+- 465
+wavelength_weights:
+- 3
+- 5
+- 2
+psf_kernel_pixels: 129
+psf_grid_resolution: 2048
+rays_per_wavelength: 512
+recenter_psf: false
+focus_offsets_mm:
+- 0.0
+review_bf_adjust_limit_mm: 0.05

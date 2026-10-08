@@ -1,0 +1,25 @@
+{
+  "purpose": "Synthetic software demonstration, not paper evidence",
+  "stop_reason": null,
+  "rounds": 2,
+  "material_states": 5,
+  "torch": "2.14.0+cu126",
+  "python": "3.14.6",
+  "device": "NVIDIA GeForce RTX 3060",
+  "selected": {
+    "build_cost_proxy": 658.1158447265625,
+    "rms_p90_mm": 0.28368221819400785,
+    "demo_yield": 1.0,
+    "stage": "nominal"
+  },
+  "checks": [
+    "public demo input check",
+    "two-round CUDA search exit code 0",
+    "cost/RMS convergence image reviewed",
+    "paper main/full input checks"
+  ],
+  "not_checked": [
+    "fresh dependency installation",
+    "full paper rerun in released directory"
+  ]
+}

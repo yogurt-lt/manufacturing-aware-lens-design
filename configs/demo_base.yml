@@ -1,0 +1,45 @@
+seed: 43702
+input_lens: data/demo_cooke.json
+output_dir: results/demo_single
+glass_catalog: data/demo_relative_costs.csv
+missing_price_policy: error
+tolerances:
+  r_tole: 0.02
+  d_tole: 0.02
+  c_tole: 0.0001
+  k_tole: 0.001
+  element_decenter_sigma_mm: 0.005
+  element_tilt_sigma_arcmin: 1.0
+sampling:
+  num_grid: 3
+  num_rays: 32
+  depth: -1000.0
+acceptance:
+  max_rgb_rms_mm: 1.0
+cost_proxy:
+  radial_allowance_mm: 0.5
+  axial_allowance_mm: 0.5
+evaluation:
+  trials: 8
+visualization:
+  summary_plots: false
+  lens_layout: false
+training:
+  steps: 3
+  tolerance_draws_per_step: 1
+  lrs:
+  - 1.0e-05
+  - 1.0e-05
+  - 0.0001
+  - 1.0e-05
+  decay: 0.01
+  regularization_weight: 0.05
+  robustness_weight: 0.0
+  cost_weight: 0.0
+  good_cost_weight: 0.05
+  nominal_constraint_weight: 20.0
+  nominal_max_rms_mm: 1.0
+  yield_transition_mm: 0.003
+  yield_floor: 0.01
+  log_every: 1
+device: auto

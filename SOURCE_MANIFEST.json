@@ -1,0 +1,637 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "5963e2b6018a7e846bc28150d9484e982b8a1b71c76868ffdad014723aaf7679",
+    "matches_local_source": false
+  },
+  {
+    "path": "10_review_mtf.py",
+    "sha256": "0f4450590b93f14637a8443c89825b738f9a2b2876f3691739454d8920b573ef",
+    "matches_local_source": true
+  },
+  {
+    "path": "15_glass_substitution.py",
+    "sha256": "39b2659d9cff15a2a3e32b14a5ed169aa71cd28961d62e17faa82ffe80aa02ce",
+    "matches_local_source": true
+  },
+  {
+    "path": "16_glass_screening.py",
+    "sha256": "a615df8bf3d9322508952484da1cccfefb5dcb7c94af7270966a4642c7abefe6",
+    "matches_local_source": true
+  },
+  {
+    "path": "17_manufacturing_expert.py",
+    "sha256": "33c0cffc3e203ed758c71b39870b2a3c355675a39405e645047b711973bf6e97",
+    "matches_local_source": true
+  },
+  {
+    "path": "18_iterative_manufacturing_expert.py",
+    "sha256": "26b64a408f465e3c2799ecc6932d710f7b7d9afff5a48167c9cb623476fe56ce",
+    "matches_local_source": true
+  },
+  {
+    "path": "20_hammer_beam_search.py",
+    "sha256": "63c48ea3c0ae71c0cfc7674d76a72e797f14ed66ab1ed71979b977d7a7abb39d",
+    "matches_local_source": false
+  },
+  {
+    "path": "8_manufacturing_design.py",
+    "sha256": "83e92e40ae18f67728043278edf6819fcd5867864d4abd4a8d16ac96b98082e0",
+    "matches_local_source": true
+  },
+  {
+    "path": "9_manufacturing_ablation.py",
+    "sha256": "b4c85095aab08da224d8a3c6e25faa203a56d340517c05745e08e4394e129a93",
+    "matches_local_source": true
+  },
+  {
+    "path": "CITATION.cff",
+    "sha256": "ea2925d387234b5969a6da2c8f38f84a256921e42ea065c0c6737b7ba5360e1a",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/demo_base.yml",
+    "sha256": "effa7dab78d9c573390e833a5ace95af7cde4a72a6d5998fde7c4a3d71213ff6",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/demo_search.yml",
+    "sha256": "7c96f6e47702ce5bf25dea90998775df4e55f0c1a579358c8f002907657281f4",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/paper/base.yml",
+    "sha256": "8a312a8981d6c8a4165aaa2f98ed17c98cfe59b22302f55f1741c6ffe96d5008",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/paper/full.yml",
+    "sha256": "486296081a4f08ae7763245b2bc0cf84139c0bec2601e3574c620d895c0b833f",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/paper/greedy.yml",
+    "sha256": "6ee29a4b9588f36ad624a9b3bf5c6f7fcfe3dc2687ccadab3f92c8263042884b",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/paper/independent_mtf.yml",
+    "sha256": "750e80fc5455e644401da75d8d07dff10499bacba851c29babba98fe585fe70a",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/paper/main.yml",
+    "sha256": "1ba1a44775fe2c1867ddf6f641daa926eba993091b573c4f9821da238efa28e7",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/paper/no_soft_yield.yml",
+    "sha256": "bf7014b9beed26137cf164dce29f474989cf1c0f94cb333abbd5a689374acd3c",
+    "matches_local_source": false
+  },
+  {
+    "path": "configs/paper/nominal_only.yml",
+    "sha256": "854c953cdde3bd1135e0a82d1ba7e36c46f7658a34d1019e0098e0c8822490e5",
+    "matches_local_source": false
+  },
+  {
+    "path": "data/demo_cooke.json",
+    "sha256": "9148a2b436d4d979fb3bb7a418bfeb5d7afd3aecc4bf08dc04a6f366390ddbf5",
+    "matches_local_source": false
+  },
+  {
+    "path": "data/demo_relative_costs.csv",
+    "sha256": "80d245f7f6c82c29a441ec1ec1f15670053d316555a3de30894fc6a5f0cbd0f0",
+    "matches_local_source": false
+  },
+  {
+    "path": "deeplens/__init__.py",
+    "sha256": "1608d3950134b8422f003114904464978a6393a7e08316f368101bfc5d3e5e97",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/basics.py",
+    "sha256": "940c877162ccdf0781737ae1be991108e9a35f1b2fa21bd57f6852472156a6d7",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/camera.py",
+    "sha256": "263f04a3780d50220d69b1430f696db275c3cb4002ce0f27ce97cc74c4148ef3",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/diffraclens.py",
+    "sha256": "213c3592a77ed7c75473197796be8e67963cd8dc0eb7a0ee52ecdfa7ddee2421",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens.py",
+    "sha256": "1b35f992f49acfaa901036d5040fd4aeae6621bd0d31daf87ac0ea724d8f5a1c",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/differentiable_mtf.py",
+    "sha256": "1b7802c17dbf3af6e0211124a3bc9cf0862f0db3fe5331e5335a98eb9124e2f4",
+    "matches_local_source": false
+  },
+  {
+    "path": "deeplens/geolens_pkg/eval.py",
+    "sha256": "ca9fe5fd7210b6d10b476c2fb019a4ad933f2ea7911e3e59174590b4f85f5939",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/io.py",
+    "sha256": "563e60fb696569d6ee1c42b9a168d734c66bdd692c9dffa8d0ef90af8539e9d8",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/manufacturing.py",
+    "sha256": "0dfec3a1eb68c1dfee83f80c741ae1e44b89acb0b38dac8f606017fcb38e27ec",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/manufacturing_plots.py",
+    "sha256": "77ca650422b8d865560cca091cd6fcab45bc01d9c89ed8c42afbf0968eb29821",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/optim.py",
+    "sha256": "bac52a978b39efd629ea8a310b25b1d2d19cf625c91ab8a4344a145ce9d2231c",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/tolerance.py",
+    "sha256": "86154927fce5e2d497f9fa32620762707c7d4c13d976547ac5f46f77d0763eaa",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/utils.py",
+    "sha256": "a4dcd763ccdc102f54b06ce6ddb8a4b1f595fb3268cda3b7177dcfeddef1acd5",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/view_3d.py",
+    "sha256": "72f5f76c404fa07aecea2793b55a2164688edb4cc6e856ea03c0d7111fa2eb9b",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/geolens_pkg/vis.py",
+    "sha256": "0d8c2fecbbd3d416907bd4266f1d7730f302de74abd94fce8cfafb716051d3e1",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/hybridlens.py",
+    "sha256": "13063d957fd8af1ac32869cfa0dab693dc4052de2aba53e214d2f79bdb81fe88",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/lens.py",
+    "sha256": "c4bc3ba145a84bb928302b4ccdad3cc0ccb9979ca01b66f8886e069b43a53471",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/__init__.py",
+    "sha256": "c265c567ebc3d528f6f483d03224e0781677addf5497c6f25440682261f41616",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/dataset.py",
+    "sha256": "7a85a97d7fe17dba605447260977258f49b5349a664aacf3b6bca418a95a9bff",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/loss/__init__.py",
+    "sha256": "0716d31784487ebfef730850a98a68847f8819e39f9d940165c6667cc797d574",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/loss/perceptual_loss.py",
+    "sha256": "1105b19754381805e014732d441df1d213be507ad74b2306bd4e3637edfcb4b9",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/loss/psnr_loss.py",
+    "sha256": "6f86e6ba43524986a29906107787826d7b91aa9e2ebac6d5556cf711f1057c4b",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/loss/ssim_loss.py",
+    "sha256": "2feeb29786d679c4afcafbd1a787e40cb415b015f9a287ca661b5a04cff3202c",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/reconstruction/__init__.py",
+    "sha256": "9a42cadabb228e999c425089ea6361ea0aeda1a64ec95c79f3e1e1527204e930",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/reconstruction/nafnet.py",
+    "sha256": "b22e36b95876c5e378eaf96a7e5ad396dd4e3564ea2865a6ad961fe9b689a1fa",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/reconstruction/restormer.py",
+    "sha256": "ececf5bd782e1e8aea9719c2f709a3ea165e587753d74403df5eeb91cf999d77",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/reconstruction/swinir.py",
+    "sha256": "2141c06246dcf2d889a0c99186339983c2f638e839803dc2b10d56b87070f93f",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/reconstruction/unet.py",
+    "sha256": "27ef13c1ab7050bc891d576017101e728884585baf9c9e41ed69d1040ee29dad",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/surrogate/__init__.py",
+    "sha256": "164654ffcb8224599c07dc43f81d56021fe0a67de0aefe41a89f4411a2322636",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/surrogate/mlp.py",
+    "sha256": "8fa32a7b27db7b734db49a8d32fd80bd530ba9ffa938114b3d89be735ca60f33",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/surrogate/mlpconv.py",
+    "sha256": "080ee68a766554add6efa76edb51efc3159f89db8076d8d0f625e6bd4a3184c7",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/surrogate/modulate_siren.py",
+    "sha256": "9898ed0f78ae0e34e116d0652ae7adbdd4b203a9a739ae71fcf02585b67e348b",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/surrogate/psfnet_mplconv.py",
+    "sha256": "e59bcdd01ae907d110aa98a9cd9b221a755cd6a1cbb171a20872faf4c77e3379",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/network/surrogate/siren.py",
+    "sha256": "fbe1bbc9ce60f013096c4b8e4da37b10c86790d74c570d9377ca219f315f6934",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/__init__.py",
+    "sha256": "aef8a483fe2b5fc94b622ae5df967d284e88f382cc54427cee5a2ff92b1e0f73",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/diffractive_surface/__init__.py",
+    "sha256": "cdb012647a0352e13464212b45f718ef8c3fac3a428326546c284df781386a66",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/diffractive_surface/binary2.py",
+    "sha256": "02c25c478e6732174eb89fb89803b2104b76d63894a02b0e98ccb828fffb4f17",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/diffractive_surface/diffractive.py",
+    "sha256": "4b5700b9313d377d1fa67b0201469e999e1833791fd03ca9d54bb6e69d3c0313",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/diffractive_surface/fresnel.py",
+    "sha256": "5df78bb26d95d3418cd3148f8f5597bf286fe2156fc839c893b224de772d3b38",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/diffractive_surface/pixel2d.py",
+    "sha256": "b12112bb82bd446a8edb81aaec19619a422cbe8dbb1390633a3a157dd4d9d542",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/diffractive_surface/thinlens.py",
+    "sha256": "da9e28a6d045c92722448b0bf4b63298e6fc9543075a2d65c5cea4b97f9db9bb",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/diffractive_surface/zernike.py",
+    "sha256": "5da4a6cd5010abab47c01a96129f7341ff6b5e7e0295764d682f4cdbe23ab106",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/__init__.py",
+    "sha256": "8c593d3c9e589ad3cf7ca03d3650b61a107f8e502cc09876dedf8b38357e6efe",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/aperture.py",
+    "sha256": "f0fc50455ba6fa4f0abc7341794d1e232b611db5e0ecd2ec36e897e80955dd15",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/aspheric.py",
+    "sha256": "47bc5c5ae7ac2e211f2623d8959d91cc572a096ad29629b1d1eae16770ab2ea2",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/aspheric_norm.py",
+    "sha256": "7fc7c5fb6e1bc29d327e41d46bf0ada70eecee7cf8e143cfb3f6a89798ba92eb",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/base.py",
+    "sha256": "16bc54a015e8df3a3ee6bfe164d3cbbf0510e6bc3810d155ca96886ebf0f89dd",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/cubic.py",
+    "sha256": "2f4dac04efd026df2be713ee9fdec7acaa113d9819ea89487a018e4297d09cfb",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/mirror.py",
+    "sha256": "bdd4e375491a3978c081b99a002ac58e79f110313742a40d3defda20fd436eda",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/phase.py",
+    "sha256": "d5703161c17176e36dbeb05e16641e2393593a4f4239add1ac4cd9599510b81b",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/plane.py",
+    "sha256": "39163a67d1958ea2fe2689e57534d568676205f518e560d2980e2f3618c1bfc2",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/prism.py",
+    "sha256": "58a242f71ad916cf8a2076c748b91a90e516a56cc84b448c9e3f84b89495348c",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/spheric.py",
+    "sha256": "bdc10412681e982e841c9e24d9a0d7864a9e7999c0520324e2bc3854850f8484",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/spiral.py",
+    "sha256": "b026b6641315b5c0bc3b06cdf34aefcfcee0adcc5fe29465c7de286794cd7d92",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/geometric_surface/thinlens.py",
+    "sha256": "2a9d9106e67682c93647da5572fa58e23c934d6eed55de8c92aa803ea885f4aa",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/loss.py",
+    "sha256": "78b3c1784fca9dbe3fe5348710ba11bd41207b31077173e1c668eafef75ca857",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/material/CDGM.AGF",
+    "sha256": "bc7ab8c39fea30338577145b1b8cbe5c81e9cd462a192f1eab74669f20f15b47",
+    "matches_local_source": false
+  },
+  {
+    "path": "deeplens/optics/material/materials_data.json",
+    "sha256": "53f319006235cda043bf8c1454ab26f8b38899a94524bdb15f149018fd412739",
+    "matches_local_source": false
+  },
+  {
+    "path": "deeplens/optics/material/MISC.AGF",
+    "sha256": "ee1a7eab8eab923398bb2703952c2cae767125826cf51a4e8260c60806e6015c",
+    "matches_local_source": false
+  },
+  {
+    "path": "deeplens/optics/material/PLASTIC2022.AGF",
+    "sha256": "ee1a7eab8eab923398bb2703952c2cae767125826cf51a4e8260c60806e6015c",
+    "matches_local_source": false
+  },
+  {
+    "path": "deeplens/optics/material/SCHOTT.AGF",
+    "sha256": "ee1a7eab8eab923398bb2703952c2cae767125826cf51a4e8260c60806e6015c",
+    "matches_local_source": false
+  },
+  {
+    "path": "deeplens/optics/materials.py",
+    "sha256": "54782adab736a5c8a6595d49ed80909b1511a65d7284da1053e321d3ca98ca3f",
+    "matches_local_source": false
+  },
+  {
+    "path": "deeplens/optics/monte_carlo.py",
+    "sha256": "9e168503ce7dc72daec857343bf99cbd7948ad1c083b84d134c5897eeb762a98",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/psf.py",
+    "sha256": "e25c7855ecd4c270e4de0b3c27447e687bd066ffe1f0d907b15ef06f43525107",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/ray.py",
+    "sha256": "52bee05be804168c55a9bd72be5257e02fd447300f47f5afecc009a0fc095da9",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/utils.py",
+    "sha256": "9ea78044a0ef59d471a336938e3cfcf785a84bc865874616afaf3f8210cb9029",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/optics/wave.py",
+    "sha256": "763707e25043f25c1e3522635d14e4c398974a618b1b88cf7e48b346951edabf",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/paraxiallens.py",
+    "sha256": "34176c17e5e1edc69abaaec7c52a21506e63a4098558b9774cdc1d7137345ce5",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/psfnetlens.py",
+    "sha256": "264fbb11023920273235d7160e4182c0f0dcffad7312b81057c5adf1489441d8",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/__init__.py",
+    "sha256": "1b2f28128b89b0d705f7c1faf410a040bb2450582253f3504a55b654e59a3cbf",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/event_sensor.py",
+    "sha256": "1c741e76f92afb4c84a8a4178c1737b959950c900da6b518ca360aec4c85053e",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp.py",
+    "sha256": "d2bacb3e291e674bedd9a1987d80fd67232643fcbda690001c9a112bf9d32e19",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/__init__.py",
+    "sha256": "f02947484a3875ced6c7700635047959d131f23a325c1d2959d8e4417e81fb7b",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/anti_alising.py",
+    "sha256": "1893fe7b6b8094e820af5a50294895230f5c9c624c4f79e6665a746741f0d6a5",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/black_level.py",
+    "sha256": "4bd46c79f2595f9b8f4f5eb1b7bb0cfa93955bee4f601e67d8b76f80a562266b",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/color_matrix.py",
+    "sha256": "743acdd40525b5429e50c6276efa1b26e603a83fb06d5b37624c856848dd8af0",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/color_space.py",
+    "sha256": "ddc43bc703c6787c9147723578a81f46638e43025b84da02bb1970f54b5b0939",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/dead_pixel.py",
+    "sha256": "419934d6af4c76775d7c6420036e891f6273e7dce9698c5da8b6dbcb15c9765b",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/demosaic.py",
+    "sha256": "1238dd36c268b4687cf55371938d7959f7e964290dde1460b074c9199243c778",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/denoise.py",
+    "sha256": "a0182ccb7f71aab1c0b881efadef4e5c9096b6a971e43df9a8dfa12b037c2fb0",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/gamma_correction.py",
+    "sha256": "c2bb0a241de0d2d76ffc7b2fb514a0f29a966d2823dabb83015d491c81d309a5",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/lens_shading.py",
+    "sha256": "daeb4f9a4767db372537980304542042069dbdc54ce7b674f3d805843553c842",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/isp_modules/white_balance.py",
+    "sha256": "9f6a24634a9a669122bb8e728a95f1e3a232678d83d64332f44203e4dfc6ad49",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/mono_sensor.py",
+    "sha256": "8b7d729f0037a37f030212ea77536c14769910109070299e295ce3b2135379bb",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/rgb_sensor.py",
+    "sha256": "7beb837313baa950d8c75be3a84adbf84d79ccce0926c63ae2bfcce350c1cbc1",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/sensor/sensor.py",
+    "sha256": "cd1a5a2dbdde8a85ac2759e5cff338c34a90a23bd54dccc59cd2beaee97abf80",
+    "matches_local_source": true
+  },
+  {
+    "path": "deeplens/utils.py",
+    "sha256": "43a5a2ebe7ca9704f021de7305b27ae1d9ff3c8a420beb4e3479a6e2330da673",
+    "matches_local_source": true
+  },
+  {
+    "path": "docs/DATA.md",
+    "sha256": "2352e6f0829fc05e710a7e8e3c962f603237020ab16b29005577090d0dc45bbc",
+    "matches_local_source": false
+  },
+  {
+    "path": "docs/METHOD.md",
+    "sha256": "593ac76c460183ebf8e97cea26e26cf80c8dde60a74ec7dfe7b31ff89047ff97",
+    "matches_local_source": false
+  },
+  {
+    "path": "docs/PUBLISH_zh.md",
+    "sha256": "3016c11420bb06d1a6b663baf49a7bf06a0e34fcd24ba3606fdad3352d5f015b",
+    "matches_local_source": false
+  },
+  {
+    "path": "docs/UPSTREAM_README.md",
+    "sha256": "c96cff13171101b217296f5fdbf8ec67ef39ef4cef51032c3f4d0e9733ad6a55",
+    "matches_local_source": false
+  },
+  {
+    "path": "examples/convergence_metrics.csv",
+    "sha256": "3a8981ffcafc1350113ca0d6c73d427277ad075027ff9e575b029d8e92f58dad",
+    "matches_local_source": false
+  },
+  {
+    "path": "examples/demo_smoke_summary.json",
+    "sha256": "daa306849b82d6f4c6d6542fd10aeba24096e0e704bf5a9ea8a540df91719c2a",
+    "matches_local_source": false
+  },
+  {
+    "path": "examples/hammer_convergence.png",
+    "sha256": "0527e0d2d492d6dd4f94370966c641aa6c21e242ec56c1f9b4bec08f4ce6465a",
+    "matches_local_source": false
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "ef88b047792ee074036376871d15a12ee00c98b9a6a96eeb53dacd36c05de561",
+    "matches_local_source": true
+  },
+  {
+    "path": "NOTICE",
+    "sha256": "b98276615e7c7cf2a5d2085605f72a00fe77f7bab7768d69520ba06ce7b49a70",
+    "matches_local_source": false
+  },
+  {
+    "path": "README.md",
+    "sha256": "e370ba903c43fce32c7486b651662f1ef42cc3fcfb372296099997a1366163b8",
+    "matches_local_source": false
+  },
+  {
+    "path": "README_zh.md",
+    "sha256": "4e657793b1b40bd1e609bd7dfcf468d9c86b2e4036f95009f694ac159fae180c",
+    "matches_local_source": false
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "9b41d9da69da621e1632d35d8d788a9fe32ad0b867da0b6215d9a59121a97d2d",
+    "matches_local_source": false
+  },
+  {
+    "path": "run.py",
+    "sha256": "7e83d0640169c8e7175a21146edf9bf043c55a77d8707379ad85a12685deffc9",
+    "matches_local_source": false
+  },
+  {
+    "path": "scripts/bootstrap_formal_ablation.py",
+    "sha256": "d94e67394c1fcf14a9d5cc5ab74f4bfb1b2269b8af59858bd2ae131d601c6a9b",
+    "matches_local_source": false
+  },
+  {
+    "path": "scripts/evaluate_formal_ablations.py",
+    "sha256": "00fb3cddd33365fe4d857dbc0d018bb7098ca4c314c582883142680c4ae6c28e",
+    "matches_local_source": false
+  },
+  {
+    "path": "scripts/show_search_progress.py",
+    "sha256": "09eed304708ee755f1c8b203c6e2fdb468d2331d05cf34468db8d3b5c0043229",
+    "matches_local_source": true
+  },
+  {
+    "path": "tools/evaluate_paper_ablations.py",
+    "sha256": "f5afcaf4e32527e65f184ecd1b87b9e4ade5b1544ed1ffaaca63c954f1590717",
+    "matches_local_source": false
+  },
+  {
+    "path": "tools/import_local_research_data.py",
+    "sha256": "ef5e0df8a655e83c8652216a4589571e3a1db04cb98a28c1f714dbb16f3a02ae",
+    "matches_local_source": false
+  }
+]

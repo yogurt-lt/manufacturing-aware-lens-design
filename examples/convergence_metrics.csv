@@ -1,0 +1,5 @@
+﻿round,stage,normalized_manufacturing_cost,manufacturing_cost_index,rms_p90_mm,evaluation_mtf_min_ts,selected_lens_json
+-1,pre_recovery,1.0,875.5944213867188,0.28019976913928984,,data\demo_cooke.json
+0,selected,1.0,875.5944213867188,0.2802068144083023,,results\demo_search\seeds\1_synthetic_cooke\manufacturing_lens.json
+1,selected,0.870523609832857,762.2256164550781,0.28262067437171934,,results\demo_search\round_1\p_80233147b0\trial_1_s0_h_demo_crown_economy\nominal_recovery\manufacturing_lens.json
+2,selected,0.7516217881839339,658.1158447265625,0.28368221819400785,,results\demo_search\round_2\p_2c59ec4097\trial_1_s5_h_demo_crown_economy\nominal_recovery\manufacturing_lens.json

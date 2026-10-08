@@ -1,0 +1,14 @@
+# Install a compatible torch/torchvision pair first (CPU or CUDA).
+numpy>=1.26
+matplotlib>=3.7
+PyYAML>=6.0
+scipy>=1.11
+Pillow>=10
+opencv-python>=4.8
+scikit-image>=0.20
+lpips>=0.1.4
+einops>=0.7
+timm>=0.9
+tqdm>=4.65
+transformers>=4.30
+wandb>=0.15

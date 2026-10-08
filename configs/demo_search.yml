@@ -1,0 +1,80 @@
+output_dir: results/demo_search
+base_config: configs/demo_base.yml
+device: auto
+reference_lens_json: data/demo_cooke.json
+seed_lenses:
+- name: synthetic_cooke
+  path: data/demo_cooke.json
+acceptance_max_rgb_rms_mm: 1.0
+search:
+  max_rounds: 2
+  beam_width: 2
+  exploration_slots: 1
+  patience_rounds: 3
+  max_trials_per_round: 2
+  max_trials_per_parent: 2
+  proposal_pool_size: 8
+  max_changes_per_trial: 1
+  seed_recovery_steps: 0
+  nominal_steps_per_trial: 3
+  robust_steps_per_trial: 3
+  evaluation_trials: 8
+  global_best_metric: composite_score
+  global_improvement_fraction: 0.0005
+  resume: true
+training_overrides:
+  tolerance_draws_per_step: 1
+  log_every: 1
+sampling_overrides:
+  num_grid: 3
+  num_rays: 32
+proposal:
+  wavelengths_nm:
+  - 465
+  - 525
+  - 635
+  melt_frequency_allowlist:
+  - A
+  - MA
+  same_family_prefix: 0
+  max_abs_delta_n: 0.005
+  max_candidate_price_ratio: 1.25
+  ranking: optical_first
+  candidate_limit: 30
+  max_per_surface: 2
+  radial_allowance_mm: 0.5
+  axial_allowance_mm: 0.5
+  exclude_equivalent_materials: true
+  equivalent_max_abs_delta_n: 1.0e-05
+  equivalent_max_price_fraction: 1.0e-06
+  candidate_name_regex: h-demo-[a-z-]+
+score_weights:
+  good_unit_cost: 1.0
+  rms_p90: 0.25
+  yield_shortfall: 0.2
+screening:
+  metric: rms
+  min_demo_yield: 0.0
+  max_build_cost_ratio_to_reference: 1.05
+process_cost:
+  production_volume: 10000
+  per_element_proxy:
+    glass_sphere: 100
+    glass_asphere: 500
+    plastic_sphere: 60
+    plastic_asphere: 120
+  plastic_material_tokens:
+  - k26r
+  - k22r
+  - zeonex
+  preferred_glass_aspheres:
+  - d-k9
+  - d-fk61
+  nonpreferred_glass_asphere_penalty: 100
+  tooling_proxy: 200000
+layout_comparison:
+  enabled: false
+independent_mtf:
+  enabled: false
+matched_fixed_material_control:
+  enabled: false

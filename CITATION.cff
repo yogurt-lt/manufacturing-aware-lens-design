@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this software, DeepLens, and the associated manuscript when using this method."
+title: "Manufacturing-aware differentiable lens design"
+type: software
+authors:
+  - family-names: "Lou"
+    given-names: "Taiyuange"
+license: Apache-2.0
+repository-code: "https://github.com/yogurt-lt/manufacturing-aware-lens-design"
